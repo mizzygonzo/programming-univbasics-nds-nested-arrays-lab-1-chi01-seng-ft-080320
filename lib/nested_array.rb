@@ -33,7 +33,7 @@ def sorted_matrix
   shelf_1 = ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
   shelf_2 = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
   storage_room = [ shelf_1, shelf_2]
-  ar = [ORGANIC_PRODUCE.sort, CONVENTIONAL_PRODUCE.sort]
+  ar = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
 end
 
 def matrix_lookup(matrix, row, column)
